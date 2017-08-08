@@ -1,0 +1,26 @@
+{
+  "name": "PHPJasper/examples",
+  "description": "PHPJasper Examples v2.0",
+  "license": "MIT",
+  "keywords": [
+    "reports",
+    "php-reports",
+    "pdf"
+  ],
+  "authors": [
+    {
+      "name": "Daniel Rodrigues Lima",
+      "email": "danielrodrigues-ti@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "geekcom/phpjasper": "^2.0",
+    "symfony/console": "^3.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Examples\\": "src/"
+    }
+  }
+}

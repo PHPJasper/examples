@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="subreport" pageWidth="270" pageHeight="595" columnWidth="270" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="33211f37-6a89-4794-b2c7-2c6083ade935">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Sub Report"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="inch"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="inch"/>
+	<parameter name="ID_PERSON" class="java.lang.String"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM EMAIL_ADDRESSES  WHERE ID_PERSON =  $P{ID_PERSON}]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="id_person" class="java.lang.String"/>
+	<field name="email" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="63" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="-1" width="270" height="30" forecolor="#542321" backcolor="#9FA5E0" uuid="0235db38-b487-4fdd-9372-602c6a00778b"/>
+			</frame>
+			<textField>
+				<reportElement x="0" y="31" width="270" height="32" uuid="07b84578-67f4-4fe7-b700-58bdd7025168"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="16"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{email}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="-1" width="270" height="30" uuid="304e51f3-c737-4a7a-9937-d0947a48abd4"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[EMAIL ADDRESS]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>
