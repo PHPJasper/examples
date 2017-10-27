@@ -15,7 +15,7 @@
   ],
   "require": {
     "php": ">=7.1",
-    "geekcom/phpjasper": "^2.2"
+    "geekcom/phpjasper": "^2.4"
   },
   "autoload": {
     "psr-4": {

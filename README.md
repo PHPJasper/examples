@@ -1,4 +1,4 @@
-# PHPJasper Examples v2.2
+# PHPJasper Examples
 
 How to use:
 
