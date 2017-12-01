@@ -1,6 +1,6 @@
 {
   "name": "PHPJasper/examples",
-  "description": "PHPJasper Examples v2.2",
+  "description": "PHPJasper Examples",
   "license": "MIT",
   "keywords": [
     "reports",
@@ -14,8 +14,8 @@
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "geekcom/phpjasper": "^2.4"
+    "php": ">=7.0",
+    "geekcom/phpjasper": "^2.5"
   },
   "autoload": {
     "psr-4": {
