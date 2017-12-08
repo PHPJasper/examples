@@ -2,19 +2,19 @@
   "contacts": {
     "person": [
       {
-        "name": "ETHAN",
+        "name": "Vitor Mattos (vitormattos)",
         "street": "Street 1",
         "city": "Fairfax",
         "phone": "+1 (415) 111-1111"
       },
       {
-        "name": "CALEB",
+        "name": "Daniel Rodrigues (geekcom)",
         "street": "Street 2",
         "city": "San Francisco",
         "phone": "+1 (415) 222-2222"
       },
       {
-        "name": "WILLIAM",
+        "name": "Rafael Queiroz (rafaelqueiroz)",
         "street": "Street 2",
         "city": "Paradise City",
         "phone": "+1 (415) 333-3333"

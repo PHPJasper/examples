@@ -10,13 +10,13 @@ use Examples\Examples;
 $examples = new Examples;
 
 //Compile jrxml into .jasper
-//$examples->compileExample();
+$examples->compileExample();
 
 //Process file .jrxml or .jasper
-//$examples->processExample();
+$examples->processExample();
 
 //List Parameters-> .jrxml or .jasper
-//$examples->listParametersExample();
+$examples->listParametersExample();
 
 //Generate reports from a database
 //$examples->DbExample();
@@ -25,7 +25,7 @@ $examples = new Examples;
 //$examples->DbExampleWithSubReport();
 
 //Generate reports from a XML file
-//$examples->XMLExample();
+$examples->XMLExample();
 
 //Generate reports from a JSON file
-//$examples->JsonExample();
+$examples->JsonExample();

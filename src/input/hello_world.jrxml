@@ -16,7 +16,7 @@
 					<textElement>
 						<font fontName="Arial" size="34" isBold="true"/>
 					</textElement>
-					<text><![CDATA[PHPjasper Test]]></text>
+					<text><![CDATA[PHPjasper example]]></text>
 				</staticText>
 			</frame>
 		</band>
