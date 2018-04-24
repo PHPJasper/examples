@@ -12,10 +12,15 @@ class Examples
 {
     private $PHPJasper;
 
+    /**
+     * Examples constructor.
+     * @param null $PHPJasper
+     */
     public function __construct($PHPJasper = null)
     {
         $this->PHPJasper = new PHPJasper();
     }
+
 
     public function compileExample()
     {
