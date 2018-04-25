@@ -1,0 +1,21 @@
+version: '2'
+services:
+  mysql:
+    image: ambientum/mysql:5.7
+    container_name: phpjasperExampleDb
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=sub_reports
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=root
+  php:
+    image: copamdocker/gepeto
+    container_name: phpjasperExample
+    volumes:
+      - .:/var/www/html
+    ports:
+      - "8000:80"
+    links:
+    - mysql

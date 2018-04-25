@@ -91,7 +91,7 @@ class Examples
                 'username' => 'username',
                 'password' => 'password',
                 'host' => 'localhost',
-                'database' => 'database',
+                'database' => 'database_name',
                 'port' => '0000'
             ]
         ];
