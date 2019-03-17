@@ -87,12 +87,12 @@ class Examples
             'params' => [],
             'resources' => __DIR__ . '/resources', //place of resources
             'db_connection' => [
-                'driver' => 'postgres', //mysql, postgres, oracle, generic (jdbc)
-                'username' => 'username',
-                'password' => 'password',
+                'driver' => 'mysql', //mysql, postgres, oracle, generic (jdbc)
+                'username' => 'root',
+                'password' => 'root',
                 'host' => 'localhost',
-                'database' => 'database_name',
-                'port' => '0000'
+                'database' => 'sub_reports',
+                'port' => '3306',
             ]
         ];
 
