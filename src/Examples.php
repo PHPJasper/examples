@@ -90,17 +90,17 @@ class Examples
                 'driver' => 'mysql', //mysql, postgres, oracle, generic (jdbc)
                 'username' => 'root',
                 'password' => 'root',
-                'host' => 'localhost',
+                'host' => 'mysql',
                 'database' => 'sub_reports',
                 'port' => '3306',
             ]
         ];
 
-        $this->PHPJasper->process(
+        print $this->PHPJasper->process(
             $input,
             $output,
             $options
-        )->execute();
+        )->output();
     }
 
     public function XMLExample()
