@@ -83,19 +83,19 @@ class Examples
             'resources' => __DIR__ . '/resources', //place of resources
             'db_connection' => [
                 'driver' => 'mysql', //mysql, postgres, oracle, generic (jdbc)
-                'username' => 'root',
-                'password' => 'root',
+                'username' => 'phpjasper',
+                'password' => 'phpjasper',
                 'host' => 'mysql',
                 'database' => 'sub_reports',
                 'port' => '3306',
             ]
         ];
 
-        print $this->PHPJasper->process(
+        $this->PHPJasper->process(
             $input,
             $output,
             $options
-        )->output();
+        )->execute();
     }
 
     public function XMLExample()
