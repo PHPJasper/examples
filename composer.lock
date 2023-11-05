@@ -4,28 +4,30 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7ea1fbe8ec71581b33642ec5761ed4e8",
+    "content-hash": "b2d14ea43c356a0dc2349f1e41af88c6",
     "packages": [
         {
             "name": "geekcom/phpjasper",
-            "version": "3.2.0",
+            "version": "3.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPJasper/phpjasper.git",
-                "reference": "97f4abac5d9b0213182b7fbd7b96d6ef4463da27"
+                "reference": "bae2d6c0064ee32e5f478e0208af419ba3fcb2ee"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPJasper/phpjasper/zipball/97f4abac5d9b0213182b7fbd7b96d6ef4463da27",
-                "reference": "97f4abac5d9b0213182b7fbd7b96d6ef4463da27",
+                "url": "https://api.github.com/repos/PHPJasper/phpjasper/zipball/bae2d6c0064ee32e5f478e0208af419ba3fcb2ee",
+                "reference": "bae2d6c0064ee32e5f478e0208af419ba3fcb2ee",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.2"
+                "php": "^7.2|^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.3",
-                "squizlabs/php_codesniffer": "3.*"
+                "php-coveralls/php-coveralls": "^2.2",
+                "phpstan/phpstan": "^0.12.5",
+                "phpunit/phpunit": "^8.4|^9.4",
+                "squizlabs/php_codesniffer": "*"
             },
             "type": "library",
             "autoload": {
@@ -40,7 +42,7 @@
             "authors": [
                 {
                     "name": "Daniel Rodrigues Lima",
-                    "email": "danielrodrigues-ti@hotmail.com",
+                    "email": "geekcom@php.net",
                     "role": "lead"
                 }
             ],
@@ -50,7 +52,17 @@
                 "php-reports",
                 "reports"
             ],
-            "time": "2020-01-08T20:49:01+00:00"
+            "support": {
+                "issues": "https://github.com/PHPJasper/phpjasper/issues",
+                "source": "https://github.com/PHPJasper/phpjasper/tree/3.4.0"
+            },
+            "funding": [
+                {
+                    "url": "https://nubank.com.br/pagar/518o5/zVBzxd00Sb",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-11-05T17:24:54+00:00"
         }
     ],
     "packages-dev": [],
@@ -60,7 +72,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.2"
+        "php": "^7.2|^8.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
 }

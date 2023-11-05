@@ -18,7 +18,7 @@ $examples->processExample();
 //List Parameters-> .jrxml or .jasper
 $examples->listParametersExample();
 
-//Generate reports from a XML file
+//Generate reports from XML file
 $examples->XMLExample();
 
 //Generate reports from a JSON file

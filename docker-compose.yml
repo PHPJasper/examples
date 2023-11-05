@@ -6,14 +6,14 @@ services:
     restart: always
     container_name: phpjasperExampleDb
     ports:
-      - 3306:3306
+      - "3307:3306"
     environment:
       - MYSQL_ROOT_PASSWORD=phpjasper
       - MYSQL_DATABASE=sub_reports
       - MYSQL_USER=phpjasper
       - MYSQL_PASSWORD=phpjasper
   php:
-    image: geekcom/phpjasper
+    image: geekcom/phpjasper:latest
     container_name: phpjasperExample
     volumes:
       - .:/var/www/app
