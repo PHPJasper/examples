@@ -62,7 +62,7 @@ class Examples
                 'password' => 'password',
                 'host' => 'localhost',
                 'database' => 'database_name',
-                'port' => '0000' //3307 for mysql
+                'port' => '0000' //3306 for mysql
             ]
         ];
         $this->PHPJasper->process(
@@ -87,7 +87,7 @@ class Examples
                 'password' => 'phpjasper',
                 'host' => 'mysql',
                 'database' => 'sub_reports',
-                'port' => '3307',
+                'port' => '3306',
             ]
         ];
 
