@@ -28,4 +28,4 @@ $examples->JsonExample();
 //$examples->DbExample();
 
 //Generate reports from a database with subreports
-$examples->DbExampleWithSubReport();
+//$examples->DbExampleWithSubReport();
